@@ -1,0 +1,77 @@
+@media (min-width: 769px) {
+
+    /* ----- Tooltips ----- */
+
+    .tooltip {
+        position: relative;
+        display: inline-block;
+
+        .tooltiptext {
+            visibility: hidden;
+            background-color: #485460;
+            color: #fff;
+            text-align: center;
+            padding: 7px 0;
+            border-radius: 6px;
+            position: absolute;
+            z-index: 1;
+            width: 70px;
+            bottom: 100%;
+            left: 50%;
+            margin-left: -35px;
+            opacity: 0;
+            transition: all 250ms ease;
+            word-spacing: normal;
+            margin-bottom: -5px;
+            font-size: 12px;
+
+            &::after {
+                content: " ";
+                position: absolute;
+                top: 100%;
+                left: 50%;
+                margin-left: -5px;
+                border-width: 5px;
+                border-style: solid;
+                border-color: #485460 transparent transparent transparent;
+            }
+
+        } // End tooltip text
+
+        &:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
+            margin-bottom: 0;
+        }
+
+    } // End tooltip
+
+
+    #extras-menu {
+        
+        .tooltip {
+            
+            .tooltiptext {
+                top: 130%;
+                bottom: auto;
+                margin-top: -5px;
+
+                &::after {
+                    bottom: 100%;
+                    top: auto;
+                    border-color: transparent transparent #485460 transparent;
+                }
+
+            } // End tooltip text
+
+            &:hover .tooltiptext {
+                visibility: visible;
+                opacity: 1;
+                margin-top: 0;
+            }
+
+        } // End tooltip
+
+    } // End extras menu
+
+} // End media query 

@@ -1,0 +1,46 @@
+@import 'partials/general';
+@import 'partials/header';
+@import 'partials/tooltips';
+@import 'partials/media-queries';
+@import 'partials/keyframes';
+@import 'partials/darkmode';
+@import 'partials/content-page';
+
+
+
+.font-listing {
+    margin: 50px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: -20px; 
+    font-size: 24px;
+}
+ 
+p {
+    margin: 0;
+}
+
+section a {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#fonts-count {
+    text-align: center;
+    color: #909ca8;
+}
+
+@media (max-width: 768px) {
+    .font-listing {
+        display: block;
+    }
+    p {
+        margin: 3px 0 10px 0;
+    }
+}

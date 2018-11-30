@@ -1,0 +1,94 @@
+body.dark-mode {
+    background-color: #21252b;
+    color: #fafafa;
+    
+    header {
+        border-bottom: 1px solid #313a42;
+        
+        #menu-container #extras-menu {
+            border-left: 1px solid #313a42;
+
+            #extras-menu-container {
+                #darkmode-icon g {
+                    fill: #909CA8;
+                }
+
+                #colorspark-link {
+                    background: #30343a;
+                }
+
+
+                #colorspark-link:hover {
+                    background: #3a3e44;
+                }
+            
+            } /* End extras menu container */
+
+        } /* End extras menu */
+
+    } /* End header */
+    
+    .wordmark {
+        fill: #fff;
+    }
+
+    textarea {
+        color: #edeeef;
+    }
+
+    ::placeholder {
+        color: #505760;
+    }
+
+    #card {
+        background: #262a30;
+        
+        #font-options {
+            select {
+                color: #9498a0;
+                background: #30343a;
+
+                &:hover {
+                    color: #fafafa;
+                    background: #3a3e44;
+                }
+            }
+        } /* End font options */
+        #generatedFont {
+            color: #edeeef;
+        }
+    } /* End card */
+
+    #controls {
+
+        #back-button, #get-font-button {
+            background-color: #313a42;
+        }
+
+        #back-button:hover, #copy-button:hover {
+            background-color: #343d45;
+        }
+
+        #generate-button {
+            background-color: #3e4854;
+        }
+
+        #generate-button:hover {
+            background-color: #434e5b;
+        } 
+    } /* End controls */
+
+    #info-page {
+        color: #d7dae0;
+        
+        footer {
+            color: #bec1c6;
+        }
+
+        #wordmark > path {
+            fill: #fafafa;
+        }
+    } /* End info page */
+
+} /* End dark mode */
+

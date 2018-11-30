@@ -1,0 +1,31 @@
+#input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+textarea {
+    width: 56vw;
+    margin-top: -2%;
+    padding: 7% 2% 0 2%;
+    font-size: 7.2vw;
+    line-height: 1;
+    text-align: left;
+    color: #383B3F;  
+    resize: none;
+    border: none;
+    outline: none;
+    background: inherit;  
+    overflow: hidden;
+    transition: color 500ms;
+}
+
+::placeholder {
+    color: #e0e0e0;
+    font-family: "Roboto";
+    font-weight: 300;
+}

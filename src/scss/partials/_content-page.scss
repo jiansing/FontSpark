@@ -1,0 +1,49 @@
+body {
+    overflow: auto;
+}
+
+header #logo-container img {
+    margin-top: 4px; 
+}
+
+main {
+    animation: fadeUp 1200ms ease-in-out;
+    margin-top: 51px;
+    padding-bottom: 75px; 
+}
+
+section {
+    max-width: 550px;
+    padding: 0 7.5% 7.5% 7.5%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 180px 0 120px 0;
+}
+
+h2 {
+    margin: 0 0 -10px 0;
+    font-size: 20px;
+}
+
+h3 {
+   font-size: 16px;
+    margin: 0;
+}
+
+section a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #628dba;
+    border-bottom: 2px solid transparent;
+    transition: all 200ms;
+    padding-bottom: 5px; 
+}
+
+section a:hover {
+    border-bottom: 2px solid #628dba;
+}
+

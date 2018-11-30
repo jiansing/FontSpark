@@ -1,0 +1,173 @@
+#dashboard {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    bottom: 9%;
+
+    > div {
+        display: none;
+    }
+}
+
+#card {   
+    background-color: #fff;
+    width: 360px;
+    height: 100px;
+    box-shadow: 3px 8px 18px rgba(0,0,0,0.18);
+    border-radius: 15px;
+    margin: 10% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    transition: background-color 200ms;
+
+    #generated-font-info {
+        > * {
+            margin: 0;
+            animation: fadeUp 1s;
+        }
+
+        #generatedFont {
+            font-size: 26px;
+            line-height: 22px;
+            margin-bottom: 3px;
+        }
+
+        #generatedWeight {
+            font-size: 18px;
+            font-weight: 400;
+            color: #BEBEBE;
+        }
+    } /* End generated-font-info */
+    
+
+    #font-options-toggle {
+        background: none;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        
+        svg{
+            opacity: .45;
+            transition: all 0.5s;
+        }
+
+        &:hover svg{
+            opacity: 1;
+        }
+
+        #checkmark-icon {
+            display: none;
+        }
+    } /* End font-options-toggle */
+
+    #font-options {
+        display: none;
+        animation: fadeUp 1s;
+
+        > div {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+        label {
+            font-size: 12px;
+            display: block;
+        }
+
+        select {
+            margin-top: 7.5px;
+            width: 85px;
+            padding: 10px 15px 10px 10px;
+            cursor: pointer;
+            color: #7b7b7b;
+            border: 0;
+            border-radius: 5px;
+            outline: 0;
+            background: #edeff1;
+            appearance: none;
+            transition: all 200ms;
+
+            &::-ms-expand {
+                display: none;
+            }
+
+            &:hover {
+                color: #383B3F;
+                background: #e3e5e7;
+            }
+        } /* End select */
+
+    } /* End font-options */
+
+} /* End card */
+
+#controls {
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    button, #get-font-button {
+        background-color: #576574;
+        color: white;
+        border: none;
+        border-radius: 100px;
+        outline: none;
+        cursor: pointer;
+        word-spacing: 5px;
+        font-size: 12px;
+        margin: 0;
+        height: 37px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: background-color 200ms;
+        font-size: 13px;
+    }
+
+    button:active {
+        transform: scale(0.98);
+    }
+
+    #generate-button { 
+        width: 300px; 
+
+        &:hover {
+            background-color: #485460;
+        }
+
+        &:hover svg {
+            transform: rotate(120deg);
+        }
+
+        svg {
+            transition: all 300ms ease-in-out; 
+            margin-right: 7px;
+        }
+    
+    } /* End generate-button*/
+
+    #back-button, #get-font-button {
+        background-color: #909ca8;
+        width: 37px;
+    }
+
+    #back-button:hover, #get-font-button:hover { 
+        background-color: #828f9b; 
+    }
+
+} /* End controls */
+
+#get-font-icon {
+    margin: 0 0 1px 1px;
+}
+
+#checkmark-icon {
+    margin-top: 2px;
+}

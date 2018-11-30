@@ -1,0 +1,88 @@
+/* Tablet & Large Phones */
+@media (max-width: 768px) {
+
+    #extras-menu .tooltip .tooltiptext { 
+        display: none; 
+    }
+
+    textarea {
+        font-size: 11vw;
+        height: 200px;
+        line-height: normal;
+        width: 87vw;
+        margin-top: 10%;
+    }
+
+    #dashboard {
+        bottom: 2%;
+    }
+
+     #card {
+        width: 260px;
+        margin: 10% auto 0 auto;
+
+        #generatedFont {
+            max-width: 200px;
+            font-size: 24px;
+        }
+
+        #font-options > div {
+            margin: 0 5px;
+        }
+     }
+
+     #controls {
+         margin: 30px auto;
+         width: 300px;
+
+        #get-font-button, #back-button {
+            width: 147.5px;
+            margin-top: 10px;
+            word-spacing: normal;
+
+            svg {
+                margin-right: 7.5px;
+            }
+
+        }
+
+        #generate-button {order: 1;}
+        #back-button {order: 2;}
+        #get-font-button {
+            order: 3;
+            text-decoration: none;
+            font-size: 12px;
+        }
+
+     } /* End controls */
+
+  } /* End dashboard */
+
+  /* Medium Phones */
+@media (max-width: 500px) {
+
+    textarea {
+        margin-top: 27.5%; 
+    }
+
+}
+
+/* Small Phones */
+@media (max-width: 350px) {
+
+    #card {
+         width: 210px;
+
+         #font-options, #font-options-toggle {
+             display: none;
+         }
+      } /* End card */
+
+      #controls {
+          width: 250px;
+      }
+
+      #controls #get-font-button, #controls #back-button {
+          width: 122.5px;
+      }
+}
