@@ -1,23 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+    
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
-        <title>FontSpark</title>
+        <!-- Primary Meta Tags -->
+        <title>FontSpark | Discover Better Fonts</title>
+        <meta name="title" content="FontSpark | Discover Better Fonts">
+        <meta name="description" content="Helping designers discover the perfect font for their next design project.">
 
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://fontspark.app/">
+        <meta property="og:title" content="FontSpark | Discover Better Fonts">
+        <meta property="og:description" content="Helping designers discover the perfect font for their next design project.">
+        <meta property="og:image" content="https://fontspark.app/assets/share.jpg">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://fontspark.app/">
+        <meta property="twitter:title" content="FontSpark | Discover Better Fonts">
+        <meta property="twitter:description" content="Helping designers discover the perfect font for their next design project.">
+        <meta property="twitter:image" content="https://fontspark.app/assets/share.jpg">
+
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
         <link id="current-font" href="" rel="stylesheet">
-
         <link rel="stylesheet" type="text/css" href="css/main.css">
-        <link rel="shortcut icon" href="assets/favicon.png">
 
-        <meta name="robots" content="noindex, nofollow">
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117114200-6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-117114200-6');
+        </script>
 
     </head>
 
     <body onload="generateFont(); typeOnEffect();">
-        <header>
-                
+
+        <header>      
             <div id="logo-container">
                 <a href="index.html">
                     <svg width="97px" height="17px" viewBox="0 0 97 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -30,7 +57,6 @@
                     </svg>
                 </a>
             </div>
-
             <div id="menu-container">
                 <button id="menu-button">
                     <svg width="19px" height="17px" viewBox="0 0 19 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -96,11 +122,12 @@
                     </div>
                 </div>
             </div>
-
         </header>
+
         <section id="input-section">
             <textarea id="user-input" maxlength="22" spellcheck="false" autofocus></textarea>
         </section>
+
          <section id="dashboard">
             <div>
                 <div id="card">
@@ -148,7 +175,6 @@
                         </svg>
                     </button>
                 </div>
-
                 <div id="controls">
                     <button class="tooltip" id="back-button" onclick="back();">
                         <svg width="14px" height="11px" viewBox="0 0 14 11" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -160,8 +186,7 @@
                         </svg>
                         <span class="tooltiptext" id="back-span">Back</span>
                     </button>
-    
-                    <button id="generate-button" onclick="generateFont()">
+                    <button id="generate-button" onclick="generateFont(); gtag('event', 'click', {'event_category': 'Font Generated','event_label': 'Font Generated - '+generatedFont.category});">
                         <svg id="generate-icon" width="15px" height="12px" viewBox="0 0 15 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g fill="#FFFFFF" fill-rule="nonzero">
@@ -171,8 +196,7 @@
                         </svg>
                         Generate
                     </button>
-    
-                    <a class="tooltip" id="get-font-button" href="#" target="_blank">
+                    <a class="tooltip" id="get-font-button" href="#" target="_blank" onclick="gtag('event', 'click', {'event_category': 'Get Font - '+generatedFont.category,'event_label': generatedFont.family});">
                         <svg id="get-font-icon" width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
                                 <g id="get-font" transform="translate(1.000000, 1.000000)" stroke="#FFFFFF" stroke-width="1.4">
@@ -184,15 +208,14 @@
                         </svg>
                         <span id="get-font-tooltip" class="tooltiptext">Get Font</span>
                     </a>
-
                 </div>
-
             </div>
+        </section>   
 
-         </section>   
-
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script defer src="js/app.js"></script>
+        
     </body>
+
 </html>

@@ -9,162 +9,73 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/.gitattributes",
+		"oF": 1
+		},
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "/build/.gitignore",
+		"oF": 1
+		},
 	"/build": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "/build/build",
 		"oF": 0
 		},
-	"/public/.firebase/hosting.cm9vdA.cache": {
+	"/public": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "/build/public",
+		"oF": 0
+		},
+	"/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "/build/README.html",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/src/404.html": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/public/.firebase/hosting.cm9vdA.cache",
-		"oF": 1
-		},
-	"/public/.firebaserc": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/public/.firebaserc",
-		"oF": 1
-		},
-	"/public/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/public/.gitignore",
-		"oF": 1
-		},
-	"/public/firebase.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/build/public/firebase.json",
-		"oF": 1,
-		"oO": 0,
-		"oS": 1
-		},
-	"/public/root/assets/favicon.png": {
-		"ft": 32768,
-		"iS": 864,
-		"oA": 1,
-		"oAP": "/build/public/root/assets/favicon.png",
-		"oF": 1,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"/public/root/css/directory.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/public/root/css/directory-min.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"/public/root/css/info.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/public/root/css/info-min.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"/public/root/css/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/build/public/root/css/main-min.css",
-		"oF": 1,
-		"oS": 3
-		},
-	"/public/root/directory.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/public/root/directory.html",
-		"oF": 1
-		},
-	"/public/root/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/public/root/index.html",
-		"oF": 1
-		},
-	"/public/root/info.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "/build/public/root/info.html",
-		"oF": 1
-		},
-	"/public/root/js/app-old.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/public/root/js/app-old.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"/public/root/js/app.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/public/root/js/app.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"/public/root/js/directory.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/public/root/js/directory.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"/public/root/js/fonts-old.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/public/root/js/fonts-old.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"/public/root/js/fonts.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/build/public/root/js/fonts.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
-	"/src/assets/favicon.png": {
-		"ft": 32768,
-		"iS": 3303,
 		"oA": 0,
-		"oAP": "/build/assets/favicon.png",
+		"oAP": "/build/404.html",
+		"oF": 0
+		},
+	"/src/assets/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/assets/favicon.ico",
+		"oF": 0
+		},
+	"/src/assets/share.jpg": {
+		"ft": 16384,
+		"iS": 102893,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/assets/share.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"/src/directory.html": {
@@ -188,16 +99,6 @@
 		"oAP": "/build/info.html",
 		"oF": 0
 		},
-	"/src/js/app-old.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/build/js/app-old.js",
-		"oF": 1,
-		"sC": 0,
-		"tS": 0
-		},
 	"/src/js/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -218,16 +119,6 @@
 		"sC": 0,
 		"tS": 0
 		},
-	"/src/js/fonts-old.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/build/js/fonts-old.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
 	"/src/js/fonts.js": {
 		"ft": 64,
 		"ma": 0,
@@ -237,6 +128,19 @@
 		"oF": 1,
 		"sC": 0,
 		"tS": 0
+		},
+	"/src/scss/404.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/css/404.css",
+		"oF": 0,
+		"oS": 3,
+		"uL": 1
 		},
 	"/src/scss/directory.scss": {
 		"aP": 1,
@@ -403,9 +307,9 @@
 	"creationDate": 562194037.88708794,
 	"displayValue": "FontSpark",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_orange",
-	"iconImageWasSetByUser": 1,
-	"lastBuiltDate": 565237076.16672897
+	"iconImageName": "brackets_magenta",
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 565546047.14389396
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2392,7 +2296,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "beta,_cache,cache,.idea,log,_logs,logs,node_modules,/storage/framework/sessions",
+	"skippedFoldersString": "beta, _cache, cache, .idea, log, _logs, logs, node_modules, /storage/framework/sessions, /public",
 	"sourceFolderName": "src",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,

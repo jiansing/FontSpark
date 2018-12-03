@@ -1,18 +1,47 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+    
     <head>
+
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         
+        <!-- Primary Meta Tags -->
         <title>Info | FontSpark</title>
+        <meta name="title" content="Info | FontSpark">
+        <meta name="description" content="FontSpark is a simple tool created by Luke Johnson to help designers find new fonts that best fit their next design project.">
 
-        <link rel="stylesheet" href="css/info.css">
-        <link rel="shortcut icon" href="assets/favicon.png">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://fontspark.app/info">
+        <meta property="og:title" content="Info | FontSpark">
+        <meta property="og:description" content="FontSpark is a simple tool created by Luke Johnson to help designers find new fonts that best fit their next design project.">
+        <meta property="og:image" content="https://fontspark.app/assets/share.jpg">
 
-        <meta name="robots" content="noindex, nofollow">
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://fontspark.app/info">
+        <meta property="twitter:title" content="Info | FontSpark">
+        <meta property="twitter:description" content="FontSpark is a simple tool created by Luke Johnson to help designers find new fonts that best fit their next design project.">
+        <meta property="twitter:image" content="https://fontspark.app/assets/share.jpg">
+
+        <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" type="text/css" href="css/info.css">
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117114200-6"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-117114200-6');
+        </script>
 
     </head>
+    
     <body>
+
         <header>
             <div id="logo-container">
                 <a href="index.html">
@@ -26,7 +55,6 @@
                     </svg>
                 </a>
             </div>
-
             <div id="menu-container">
                 <button id="menu-button">
                     <svg width="19px" height="17px" viewBox="0 0 19 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -93,6 +121,7 @@
                 </div>
             </div>
         </header>
+
         <main>
             <h1>
                 <svg width="190px" height="35px" viewBox="0 0 190 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -110,7 +139,7 @@
                 <p>FontSpark is a simple tool to help designers quickly find the best fonts for their design projects. FontSpark was created to help designers break out of the habit of using the same 3 or 4 fonts in nearly every project. By randomly generating unique fonts from a curated list of popular web fonts, designers are sure to discover the perfect fit for their next website or design. </p>
 
                 <h2>How does FontSpark work?</h2>
-                <p>Behind the scenes, FontSpark is quite simple. Each time the "Generate" button is pressed, a font is randomly chosen from an array of Google Fonts and Adobe Fonts that can be found in the complete <a href="directory.html">directory of fonts.</a> The generated font is loaded in using the <a href="https://github.com/typekit/webfontloader">Web Font Loader</a>, that was co-developed by Google and Typekit, then the font family and font weight for the inputted text is set. For those curious, feel free to take a look at the <a href="https://github.com/lukecjohnson" target="_blank">project on GitHub.</a></p>
+                <p>Behind the scenes, FontSpark is quite simple. Each time the "Generate" button is pressed, a font is randomly chosen from an array of Google Fonts and Adobe Fonts that can be found in the complete <a href="directory.html">directory of fonts.</a> The generated font is loaded in using the <a href="https://github.com/typekit/webfontloader">Web Font Loader</a>, that was co-developed by Google and Typekit, then the font family and font weight for the inputted text is set. For those curious, feel free to take a look at the <a href="https://github.com/lukecjohnson/FontSpark" target="_blank">project on GitHub.</a></p>
 
                 <h2>Who created FontSpark?</h2>
                 <p>FontSpark was created as a fun side project by <a href="https://lukecjohnson.com" target="_blank">Luke Johnson.</a> Luke is currently a student at Winthrop University studying Digital Information Design. If you have any questions, comments, or suggestions, please feel free to reach out at <a href=mailto:info@fontspark.app">info@fontspark.app.</a></p>
@@ -119,6 +148,10 @@
                 <p>If you enjoy using FontSpark, be sure to checkout the rest of the FontSpark family — <a href="https://colorspark.app" target="_blank">ColorSpark</a> and <a href="https://colorspark.app/sketch" target="_blank">ColorSpark for Sketch.</a></p>
             </section>
         </main>
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script defer src="js/app.js"></script>
+
     </body>
+    
+</html>
