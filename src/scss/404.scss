@@ -1,0 +1,36 @@
+@import 'partials/general';
+@import 'partials/header';
+@import 'partials/tooltips';
+ 
+main {
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+h1 {
+    font-size: 96px;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    color: #909ca8;
+    margin: 0 0 50px 0;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #628dba;
+    border-bottom: 2px solid transparent;
+    transition: all 200ms;
+    padding-bottom: 5px; 
+
+    &:hover {
+        border-bottom: 2px solid #628dba;
+    }
+}
