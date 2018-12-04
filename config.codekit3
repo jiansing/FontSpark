@@ -297,6 +297,13 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
+		},
+	"/src/sitemap.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/build/sitemap.xml",
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -309,7 +316,7 @@
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_magenta",
 	"iconImageWasSetByUser": 0,
-	"lastBuiltDate": 565546047.14389396
+	"lastBuiltDate": 565586155.79825997
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
