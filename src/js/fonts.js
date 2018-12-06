@@ -388,6 +388,15 @@ var fonts = [
     },
 
     {
+        family: "Proza Libre",
+        category: "sansSerif",
+        designer: "Jasper de Waard",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Proza+Libre"
+    },
+
+    {
         family: "PT Sans",
         category: "sansSerif",
         designer: "ParaType",
@@ -628,6 +637,24 @@ var fonts = [
     },
 
     {
+        family: "Crimson Text",
+        category: "serif",
+        designer: "Sebastian Kosch",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Cormorant"
+    },
+
+    {
+        family: "Domine",
+        category: "serif",
+        designer: "Impallari Type",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Domine"
+    },
+
+    {
         family: "Droid Serif",
         category: "serif",
         designer: "Google Android",
@@ -645,6 +672,15 @@ var fonts = [
         weights: ["400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/EB+Garamond"
+    },
+
+    {
+        family: "Eczar",
+        category: "serif",
+        designer: "Rosetta",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Eczar"
     },
 
     {
@@ -739,6 +775,15 @@ var fonts = [
         weights: ["300-Light","400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Noto+Serif"
+    },
+
+    {
+        family: "Neuton",
+        category: "serif",
+        designer: "Brian Zick",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Neuton"
     },
 
     {
