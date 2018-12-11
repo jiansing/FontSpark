@@ -34,6 +34,15 @@ var fonts = [
     },
 
     {
+        family: "Amiko",
+        category: "sansSerif",
+        designer: "Impallari Type",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Amiko"
+    },
+
+    {
         family: "Archivo",
         category: "sansSerif",
         designer: "Omnibus-Type",
@@ -218,6 +227,15 @@ var fonts = [
     },
 
     {
+        family: "Kanit",
+        category: "sansSerif",
+        designer: "Cadson Demak",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Kanit"
+    },
+
+    {
         family: "Karla",
         category: "sansSerif",
         designer: "Jonny Pinhorn",
@@ -273,6 +291,15 @@ var fonts = [
         weights: ["300-Light","400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Merriweather+Sans"
+    },
+
+    {
+        family: "Maven Pro",
+        category: "sansSerif",
+        designer: "Joe Prince",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Maven+Pro"
     },
 
     {
@@ -361,6 +388,15 @@ var fonts = [
     },
 
     {
+        family: "Overpass",
+        category: "sansSerif",
+        designer: "Delve Withrington",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Overpass"
+    },
+
+    {
         family: "Oxygen",
         category: "sansSerif",
         designer: "Vernon Adams",
@@ -385,6 +421,15 @@ var fonts = [
         weights: ["300-Light","400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Poppins"
+    },
+
+    {
+        family: "Prompt",
+        category: "sansSerif",
+        designer: "Cadson Demak",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Prompt"
     },
 
     {
@@ -536,6 +581,15 @@ var fonts = [
     },
 
     {
+        family: "Varela round",
+        category: "sansSerif",
+        designer: "Joe Prince",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Varela+Round"
+    },
+
+    {
         family: "Work Sans",
         category: "sansSerif",
         designer: "Wei Huang",
@@ -607,6 +661,15 @@ var fonts = [
         weights: ["400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Arvo"
+    },
+
+    {
+        family: "BioRhyme",
+        category: "serif",
+        designer: "Aoife Mooney",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/BioRhyme"
     },
 
     {
@@ -850,6 +913,15 @@ var fonts = [
     },
 
     {
+        family: "Scope One",
+        category: "serif",
+        designer: "Dalton Maag",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Scope+One"
+    },
+
+    {
         family: "Source Serif Pro",
         category: "serif",
         designer: "Frank Grießhammer",
@@ -868,12 +940,41 @@ var fonts = [
     },
 
     {
+        family: "Taviraj",
+        category: "serif",
+        designer: "Cadson Demak",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Taviraj"
+    },
+
+    {
+        family: "Ten Mincho",
+        category: "serif",
+        designer: " Robert Slimbach & Ryoko Nishizuka 西塚涼子",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/ten-mincho",
+        cssFamily: "ten-mincho",
+        projectID: "usm7das",
+    },
+
+    {
         family: "Tinos",
         category: "serif",
         designer: "Steve Matteson",
         weights: ["400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Tinos"
+    },
+
+    {
+        family: "Trirong",
+        category: "serif",
+        designer: "Cadson Demak",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Trirong"
     },
 
     {
@@ -900,6 +1001,35 @@ var fonts = [
 // Other
 // ------------------------------------------------------
     
+    {
+        family: "Anonymous Pro",
+        category: "other",
+        designer: "Mark Simonson",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Anonymous+Pro"
+    },
+
+    {
+        family: "Birra",
+        category: "other",
+        designer: "Darden Studio",
+        weights: ["700-Bold"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/birra",
+        cssFamily: "birra-2",
+        projectID: "utj2ctz",
+    },
+
+    {
+        family: "Chonburi",
+        category: "other",
+        designer: "Cadson Demak",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Chonburi"
+    },
+
     {
         family: "Courier",
         category: "other",
@@ -959,6 +1089,26 @@ var fonts = [
     },
 
     {
+        family: "Myriad Wild",
+        category: "other",
+        designer: "Carol Twombly & Robert Slimbach",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/myriad-wild",
+        cssFamily: "myriad-std-tilt",
+        projectID: "ybq7ahe",
+    },
+
+    {
+        family: "Overpass Mono",
+        category: "other",
+        designer: "Delve Withrington",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Overpass+Mono"
+    },
+
+    {
         family: "Pacifico",
         category: "other",
         designer: "Vernon Adams & Jacques Le Bailly",
@@ -986,6 +1136,17 @@ var fonts = [
     },
 
     {
+        family: "Sanvito",
+        category: "other",
+        designer: " Robert Slimbach",
+        weights: ["700-Bold"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/sanvito",
+        cssFamily: "sanvito-pro-display",
+        projectID: "bhs4foa",
+    },
+
+    {
         family: "Source Code Pro",
         category: "other",
         designer: "Paul D. Hunt",
@@ -1010,6 +1171,15 @@ var fonts = [
         weights: ["400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Ubuntu+Mono"
+    },
+
+    {
+        family: "VT323",
+        category: "other",
+        designer: "Peter Hull",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/VT323"
     }
 
 ];
