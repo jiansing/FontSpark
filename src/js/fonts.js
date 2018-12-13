@@ -43,6 +43,15 @@ var fonts = [
     },
 
     {
+        family: "Anton",
+        category: "sansSerif",
+        designer: "Vernon Adams",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Anton"
+    },
+
+    {
         family: "Archivo",
         category: "sansSerif",
         designer: "Omnibus-Type",
@@ -144,12 +153,32 @@ var fonts = [
     },
 
     {
+        family: "CarlMarx",
+        category: "sansSerif",
+        designer: "Hidetaka Yamasaki",
+        weights: ["400-Regular","700-Bold"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/hidden-treasures",
+        cssFamily: "carlmarx",
+        projectID: "dfa0ged",
+    },
+
+    {
         family: "Chivo",
         category: "sansSerif",
         designer: "Omnibus-Type",
         weights: ["300-Light","400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Chivo"
+    },
+
+    {
+        family: "Dosis",
+        category: "sansSerif",
+        designer: "Impallari Type",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Dosis"
     },
 
     {
@@ -161,6 +190,15 @@ var fonts = [
         download: "https://fonts.adobe.com/fonts/droid-sans",
         cssFamily: "droid-sans",
         projectID: "nla6kqz"
+    },
+
+    {
+        family: "Exo",
+        category: "sansSerif",
+        designer: "Natanael Gama",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Exo"
     },
 
     {
@@ -309,6 +347,15 @@ var fonts = [
         weights: ["300-Light","400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Montserrat"
+    },
+
+    {
+        family: "Mukta",
+        category: "sansSerif",
+        designer: "Ek Type",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Mukta"
     },
 
     {
@@ -545,6 +592,24 @@ var fonts = [
     },
 
     {
+        family: "Saira",
+        category: "sansSerif",
+        designer: "Omnibus-Type",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Saira"
+    },
+
+    {
+        family: "Saira Condensed",
+        category: "sansSerif",
+        designer: "Omnibus-Type",
+        weights: ["300-Light","400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Saira+Condensed"
+    },
+
+    {
         family: "Source Sans Pro",
         category: "sansSerif",
         designer: "Paul D. Hunt",
@@ -682,6 +747,15 @@ var fonts = [
     },
 
     {
+        family: "Bree Serif",
+        category: "serif",
+        designer: "TypeTogether",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Bree+Serif"
+    },
+
+    {
         family: "Cardo",
         category: "serif",
         designer: "David Perry",
@@ -697,6 +771,15 @@ var fonts = [
         weights: ["300-Light","400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Cormorant"
+    },
+
+    {
+        family: "Crete Round",
+        category: "serif",
+        designer: "TypeTogether",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Crete+Round"
     },
 
     {
@@ -868,6 +951,15 @@ var fonts = [
     },
 
     {
+        family: "Prata",
+        category: "serif",
+        designer: "Cyreal",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Prata"
+    },
+
+    {
         family: "PT Serif",
         category: "serif",
         designer: "ParaType",
@@ -978,6 +1070,15 @@ var fonts = [
     },
 
     {
+        family: "Unna",
+        category: "serif",
+        designer: "Omnibus-Type",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Unna"
+    },
+
+    {
         family: "Utopia",
         category: "serif",
         designer: "Robert Slimbach",
@@ -1001,6 +1102,28 @@ var fonts = [
 // Other
 // ------------------------------------------------------
     
+    {
+        family: "Alexa",
+        category: "other",
+        designer: "John Benson.",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/alexa",
+        cssFamily: "alexa-std",
+        projectID: "cym6pbr",
+    },
+
+    {
+        family: "Alfarn",
+        category: "other",
+        designer: "Celine Hurka",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/hidden-treasures",
+        cssFamily: "alfarn",
+        projectID: "mil3sdg",
+    },
+
     {
         family: "Anonymous Pro",
         category: "other",
@@ -1042,6 +1165,24 @@ var fonts = [
     },
 
     {
+        family: "Cousine",
+        category: "other",
+        designer: "Steve Matteson",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Cousine"
+    },
+
+    {
+        family: "Dancing Script",
+        category: "other",
+        designer: "Impallari Type",
+        weights: ["400-Regular","700-Bold"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Dancing+Script"
+    },
+
+    {
         family: "Fira Mono",
         category: "other",
         designer: "Carrois Apostrophe",
@@ -1077,6 +1218,26 @@ var fonts = [
         weights: ["400-Regular","700-Bold"],
         library: "Google",
         download: "https://fonts.google.com/specimen/Inconsolata"
+    },
+
+    {
+        family: "Jockey One",
+        category: "other",
+        designer: "TypeTogether",
+        weights: ["400-Regular"],
+        library: "Google",
+        download: "https://fonts.google.com/specimen/Jockey+One"
+    },
+
+    {
+        family: "Joschmi",
+        category: "other",
+        designer: "Flavia Zimbardi",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/hidden-treasures",
+        cssFamily: "joschmi",
+        projectID: "lmd5flm",
     },
 
     {
@@ -1138,12 +1299,23 @@ var fonts = [
     {
         family: "Sanvito",
         category: "other",
-        designer: " Robert Slimbach",
+        designer: "Robert Slimbach",
         weights: ["700-Bold"],
         library: "Adobe",
         download: "https://fonts.adobe.com/fonts/sanvito",
         cssFamily: "sanvito-pro-display",
         projectID: "bhs4foa",
+    },
+
+    {
+        family: "Satisfy",
+        category: "other",
+        designer: "Sideshow",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/satisfy",
+        cssFamily: "satisfy",
+        projectID: "ctm0gur",
     },
 
     {
@@ -1165,6 +1337,17 @@ var fonts = [
     },
 
     {
+        family: "Tekton",
+        category: "other",
+        designer: "David Siegel",
+        weights: ["700-Bold"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/tekton",
+        cssFamily: "tekton-pro",
+        projectID: "kya3rla",
+    },
+
+    {
         family: "Ubuntu Mono",
         category: "other",
         designer: "Dalton Maag",
@@ -1180,6 +1363,17 @@ var fonts = [
         weights: ["400-Regular"],
         library: "Google",
         download: "https://fonts.google.com/specimen/VT323"
+    },
+
+    {
+        family: "Xants",
+        category: "other",
+        designer: "Luca Pellegrini",
+        weights: ["400-Regular"],
+        library: "Adobe",
+        download: "https://fonts.adobe.com/fonts/hidden-treasures",
+        cssFamily: "xants",
+        projectID: "jro8reh",
     }
 
 ];
